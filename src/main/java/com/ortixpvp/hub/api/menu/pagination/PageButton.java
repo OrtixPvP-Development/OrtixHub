@@ -32,7 +32,7 @@ public class PageButton extends Button {
                         .build();
             } else {
                 return new ItemBuilder(Material.LEVER)
-                        .name(CC.translate("&cNext Page"))
+                        .name(CC.translate("&5Next Page"))
                         .lore(Arrays.asList(
                                 ChatColor.RED + "There is no available",
                                 ChatColor.RED + "next page."
@@ -52,7 +52,7 @@ public class PageButton extends Button {
                         .build();
             } else {
                 return new ItemBuilder(Material.LEVER)
-                        .name(CC.translate("&cPrevious Page"))
+                        .name(CC.translate("&5Previous Page"))
                         .lore(Arrays.asList(
                                 ChatColor.RED + "There is no available",
                                 ChatColor.RED + "previous page."

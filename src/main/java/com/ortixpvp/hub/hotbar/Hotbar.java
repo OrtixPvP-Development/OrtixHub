@@ -14,8 +14,8 @@ import org.bukkit.inventory.ItemStack;
 @Getter
 public enum Hotbar {
 
-    SERVER_SELECTOR(Material.COMPASS, 0, "serverselector", "&cServer Selector &7(Right Click)", 3),
-    ENDER_BUTT(Material.ENDER_PEARL, 0, "&cEnder Butt &7(Right Click)", 5),
+    SERVER_SELECTOR(Material.COMPASS, 0, "serverselector", "&5Server Selector &7(Right Click)", 3),
+    ENDER_BUTT(Material.ENDER_PEARL, 0, "&5Ender Butt &7(Right Click)", 5),
 
     ;
 

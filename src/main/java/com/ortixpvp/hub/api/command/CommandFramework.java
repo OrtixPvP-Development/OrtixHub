@@ -80,7 +80,7 @@ public class CommandFramework implements CommandExecutor {
                     return true;
                 }
                 if (!command.permission().equals("") && (!sender.hasPermission(command.permission()))) {
-                    sender.sendMessage(CC.translate("&cNo permission.")); // TODO change
+                    sender.sendMessage(CC.translate("&5No permission.")); // TODO change
                     return true;
                 }
                 if (command.inGameOnly() && !(sender instanceof Player)) {
@@ -263,10 +263,10 @@ public class CommandFramework implements CommandExecutor {
                     args.getSender().getServer().dispatchCommand(args.getSender(), command);
                 }
             } else {
-                args.getSender().sendMessage(CC.translate("&cMissing arguments / Wrong format or Internal error."));
+                args.getSender().sendMessage(CC.translate("&5Missing arguments / Wrong format or Internal error."));
             }
         } else {
-            args.getSender().sendMessage(CC.translate("&cNo permission."));
+            args.getSender().sendMessage(CC.translate("&5No permission."));
         }
     }
 }

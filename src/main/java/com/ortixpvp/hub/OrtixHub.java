@@ -55,9 +55,9 @@ public class OrtixHub extends JavaPlugin {
 
         List<String> enableMessage = Arrays.asList(
                 " ",
-                "&c&lOrtix HubCore",
-                " &7Version: &c" + getDescription().getVersion(),
-                " &7Author: &c" + getDescription().getAuthors().get(0),
+                "&5&lOrtix HubCore",
+                " &7Version: &5" + getDescription().getVersion(),
+                " &7Author: &5" + getDescription().getAuthors().get(0),
                 " "
         );
         enableMessage.forEach(message -> Bukkit.getConsoleSender().sendMessage(CC.translate(message)));
@@ -67,7 +67,7 @@ public class OrtixHub extends JavaPlugin {
     public void onDisable() {
         List<String> disableMessage = Arrays.asList(
                 " ",
-                "&c&lDisabled OrtixHub!",
+                "&5&lDisabled OrtixHub!",
                 " "
         );
         disableMessage.forEach(message -> Bukkit.getConsoleSender().sendMessage(CC.translate(message)));

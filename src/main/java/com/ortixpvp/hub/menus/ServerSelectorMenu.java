@@ -24,37 +24,37 @@ import java.util.Map;
 public class ServerSelectorMenu extends Menu {
     @Override
     public String getTitle(Player player) {
-        return CC.translate("&cServer Selector");
+        return CC.translate("&5Server Selector");
     }
 
     @Override
     public Map<Integer, Button> getButtons(Player player) {
         Map<Integer, Button> buttons = new HashMap<>();
 
-        buttons.put(12, new ServerSelectorButton("&c&lSoupPvP", 0, Material.MUSHROOM_SOUP,
+        buttons.put(12, new ServerSelectorButton("&5&lSoupPvP", 0, Material.MUSHROOM_SOUP,
                 Arrays.asList(
                         CC.MENU_BAR,
                         "&7The original SoupPvP experience!",
                         "",
-                        " &f&l* &cAbilities",
-                        " &f&l* &cLeaderboards",
-                        " &f&l* &cEvents",
-                        " &f&l* &cAnd more!",
+                        " &f&l* &5Abilities",
+                        " &f&l* &5Leaderboards",
+                        " &f&l* &5Events",
+                        " &f&l* &5And more!",
                         "",
                         "&fClick to join the server!",
                         CC.MENU_BAR
                 )
         ));
 
-        buttons.put(14, new ServerSelectorButton("&c&lHardcore Factions", 0, Material.DIAMOND_SWORD,
+        buttons.put(14, new ServerSelectorButton("&5&lHardcore Factions", 0, Material.DIAMOND_SWORD,
                 Arrays.asList(
                         CC.MENU_BAR,
                         "&7The original HCF experience!",
                         "",
-                        " &f&l* &cFeature 1",
-                        " &f&l* &cFeature 2",
-                        " &f&l* &cFeature 3",
-                        " &f&l* &cAnd more!",
+                        " &f&l* &5Feature 1",
+                        " &f&l* &5Feature 2",
+                        " &f&l* &5Feature 3",
+                        " &f&l* &5And more!",
                         "",
                         "&fClick to join the server!",
                         CC.MENU_BAR
