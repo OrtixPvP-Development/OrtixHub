@@ -11,6 +11,11 @@ import org.bukkit.inventory.meta.ItemMeta;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author I don't know
+ * @project OrtixHub
+ * @date 03/08/2024 - 07:36
+ */
 public class ItemBuilder implements Listener {
 
     private final ItemStack is;
