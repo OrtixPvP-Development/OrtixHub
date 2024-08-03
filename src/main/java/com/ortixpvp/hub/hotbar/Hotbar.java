@@ -26,7 +26,7 @@ public enum Hotbar {
     private final int slot;
 
     /**
-     * Instantiates a new hotbar item
+     * Constructor for hotbar items (Instantiates a new hotbar item)
      *
      * @param material   the material of the hotbar item
      * @param durability the durability of the hotbar item
@@ -42,6 +42,14 @@ public enum Hotbar {
         this.slot = slot;
     }
 
+    /**
+     * Constructor for hotbar items without its command (used for enderbutt for example)
+     *
+     * @param material   the material of the hotbar item
+     * @param durability the durability of the hotbar item
+     * @param name       the name of the hotbar item
+     * @param slot       the slot of the hotbar item
+     */
     Hotbar(Material material, int durability, String name, int slot) {
         this(material, durability, null, name, slot);
     }
