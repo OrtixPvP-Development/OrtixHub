@@ -11,7 +11,7 @@ import org.bukkit.ChatColor;
 @UtilityClass
 public class CC {
 
-    public String MENU_BAR = translate("&7&m------------------------");
+    public String MENU_BAR = translate("&7&m---------------------------");
 
     /**
      * Translate a string with the '&' character
