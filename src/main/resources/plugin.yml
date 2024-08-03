@@ -3,3 +3,5 @@ version: '${project.version}'
 main: com.ortixpvp.hub.OrtixHub
 author: Emmy
 description: Hub plugin for OrtixPvP
+depend:
+  - ViaVersion

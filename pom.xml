@@ -52,6 +52,10 @@
 
   <repositories>
       <repository>
+          <id>viaversion-repo</id>
+          <url>https://repo.viaversion.com</url>
+      </repository>
+      <repository>
           <id>spigotmc-repo</id>
           <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
       </repository>
@@ -96,7 +100,6 @@
             <artifactId>reflections</artifactId>
             <version>0.10.2</version>
         </dependency>
-
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
@@ -111,6 +114,49 @@
             <groupId>org.mongodb</groupId>
             <artifactId>mongo-java-driver</artifactId>
             <version>3.9.0</version>
+        </dependency>
+
+        <!-- 1.8.8 -->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PaperSpigot-1.8.8-R0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <!-- 1.7.10 -->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-1.7</artifactId>
+            <version>1.7.10-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/PaperSpigot-1.7.10-R0.1-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <!-- Misc. Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Misc. ProtocolSupport API -->
+        <dependency>
+            <groupId>protocolsupport</groupId>
+            <artifactId>protocolsupport</artifactId>
+            <version>4.22.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/ProtocolSupport-1.8.jar</systemPath>
+        </dependency>
+
+        <!-- Misc. ViaVersion API -->
+        <dependency>
+            <groupId>com.viaversion</groupId>
+            <artifactId>viaversion</artifactId>
+            <version>4.10.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
