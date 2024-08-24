@@ -30,7 +30,7 @@ public class TablistVisualizer implements TabAdapter {
     public List<TabEntry> getLines(Player player) {
         List<TabEntry> lines = new ArrayList<>();
 
-        lines.add(new TabEntry(0, 4, "&5&lWelcome" + player.getName()).setPing(-1));
+        lines.add(new TabEntry(0, 4, "&5&lWelcome " + player.getName()).setPing(-1));
         lines.add(new TabEntry(0, 6, " &7Rank: &5" + "null").setPing(-1));
         lines.add(new TabEntry(0, 8, " &7Staff Online: &5" + "1").setPing(-1));
         lines.add(new TabEntry(0, 10, " &7Players Online: &5" + Bukkit.getOnlinePlayers().size()).setPing(-1));
