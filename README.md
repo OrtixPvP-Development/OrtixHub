@@ -9,7 +9,7 @@
 - Tablist
 - EnderButt
 - Server Selector
-- 
+  
 ### Contributing
 If you are bored and look for something to do, feel free to fork this repository and make a pull request. I'll be happy to review it.
 
