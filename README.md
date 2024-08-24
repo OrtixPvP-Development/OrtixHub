@@ -20,9 +20,4 @@ If you are bored and look for something to do, feel free to fork this repository
 - [minnymin3](https://github.com/mcardy/CommandFramework) - For the Command Framework
 
 ### Terms of Service
-- You are not allowed to claim this plugin as your own.
-- You are allowed to sell this plugin only...
-  - if you have made a significant change to it
-  - if you leave clear and visible credits to the original author
-  - if you sell it for a fair price ($5 - $15)
-- You are not allowed to remove credits in any way.
+- You are not allowed to remove any credits (such as: File Headers, Main Command, Plugin.yml, ect...).
