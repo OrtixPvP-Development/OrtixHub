@@ -1,7 +1,7 @@
 # OrtixHub
 
 
-##### OrtixHub is a simple spigot plugin that allows you to create a hub server. This just has the basics and it was meant to be the hubcore of Ortix Network. They apparently changed their mind, so this is now abandoned.
+##### OrtixHub is a simple spigot plugin that allows you to create a hub server. This just has the basics and it was meant to be the hubcore of Ortix Network. They apparently changed their mind, so this is now abandoned. Since the owners of OrtixPvP resigned, they cannot claim this projects as theirs, they have to follow the TOS just like everyone else.
 
 
 ### Features
