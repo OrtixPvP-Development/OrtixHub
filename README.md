@@ -21,4 +21,3 @@ If you are bored and look for something to do, feel free to fork this repository
 
 ### Terms of Service
 - You are not allowed to remove any credits (such as: File Headers, Main Command, Plugin.yml, ect...).
-- "Iusemeteor" is not allowed to use this in any way.
